@@ -1,21 +1,18 @@
 /* Styles for Mobile devices */
-.container {
+.section {
   min-width: 320px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 20px;
+  padding-top: 60px;
+  padding-bottom: 0;
 }
 /* Styles for Tablet devices */
 @media (min-width: 768px) {
-  .container {
-    min-width: 768px;
-    padding: 0 32px;
+  .section {
+    padding-top: 80px;
   }
 }
 /* Styles for Desktop devices */
 @media (min-width: 1280px) {
-  .container {
-    min-width: 1280px;
-    padding: 0 65px;
+  .section {
+    padding-top: 100px;
   }
 }
