@@ -32,11 +32,7 @@
   width: 200px;
   height: 100vh;
   padding-top: 240px;
-  background-image: linear-gradient(
-      rgba(12, 12, 12, 0.92),
-      rgba(12, 12, 12, 0.92)
-    ),
-    url(/img/menu_background_mobile.jpg);
+  background-image: url('/img/menu_background_mobile.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -48,31 +44,19 @@
 
 @media (min-resolution: 192dpi) {
   .modal-mobile-menu {
-    background-image: linear-gradient(
-        rgba(12, 12, 12, 0.92),
-        rgba(12, 12, 12, 0.92)
-      ),
-      url(/src/img/menu_background_mobile@2x.jpg);
+    background-image: url('/src/img/menu_background_mobile@2x.jpg');
   }
 }
 
 @media (min-width: 768px) {
   .modal-mobile-menu {
-    background-image: linear-gradient(
-        rgba(12, 12, 12, 0.92),
-        rgba(12, 12, 12, 0.92)
-      ),
-      url(/src/img/menu_background_tablet.jpg);
+    background-image: url('/src/img/menu_background_tablet.jpg');
   }
 }
 
 @media (min-resolution: 192dpi) and (min-width: 768px) {
   .modal-mobile-menu {
-    background-image: linear-gradient(
-        rgba(12, 12, 12, 0.92),
-        rgba(12, 12, 12, 0.92)
-      ),
-      url(/src/img/menu_background_tablet@2x.jpg);
+    background-image: url('/src/img/menu_background_tablet@2x.jpg');
   }
 }
 
