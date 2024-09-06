@@ -1,8 +1,8 @@
 (() => {
   const mob_menu = {
-    // Додати атрибут data-modal-open на кнопку відкриття
+    // Додати атрибут mobile-modal-open на кнопку відкриття
     openModalBtn: document.querySelector('[mobile-modal-open]'),
-    // Додати атрибут data-modal-close на кнопку закриття
+    // Додати атрибут mobile-modal-close на кнопку закриття
     closeModalBtn: document.querySelector('[mobile-modal-close]'),
     // Додати атрибут mobile-menu-window на бекдроп модалки
     modal: document.querySelector('[mobile-menu-window]'),
