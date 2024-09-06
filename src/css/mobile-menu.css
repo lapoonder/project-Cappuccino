@@ -73,11 +73,10 @@
   cursor: pointer;
   background-color: transparent;
   border: none;
-  color: red;
 }
 
 .icon-close-modal {
-  fill: red;
+  fill: #fbfbfb;
 }
 
 .mobile-site-navigation {
