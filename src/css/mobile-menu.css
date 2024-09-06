@@ -1,0 +1,101 @@
+.modal-overlay-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /*Делает модальное окно не видимым, полностью прозрачным. Основное состояние до вызова модального окна*/
+  pointer-events: none; /* Позволяет модальному окну игнорировать события мыши и клавиатуры. Можно взаимодействовать с основным контентом сайта */
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: rgba(46, 47, 66, 0.4);
+}
+
+.modal-overlay-menu.is-open {
+  /*Вспомогательный класс для скрипта, который вызовет этот класс и позволит отобразить модальное окно */
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-mobile-menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 100vh;
+  padding-top: 240px;
+  background-image: url('/img/menu_background_mobile.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #fcfcfc;
+  overflow-y: auto;
+  transform: translate(-50%, -50%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (min-resolution: 192dpi) {
+  .modal-mobile-menu {
+    background-image: url('/src/img/menu_background_mobile@2x.jpg');
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-mobile-menu {
+    background-image: url('/src/img/menu_background_tablet.jpg');
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 768px) {
+  .modal-mobile-menu {
+    background-image: url('/src/img/menu_background_tablet@2x.jpg');
+  }
+}
+
+.href-close-modal {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: red;
+}
+
+.icon-close-modal {
+  fill: red;
+}
+
+.mobile-site-navigation {
+  width: 73px;
+  margin: 0 auto;
+}
+
+.mobile-menu-site {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+.modal-contacts-social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
