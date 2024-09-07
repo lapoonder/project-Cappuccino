@@ -9,6 +9,13 @@
 @media screen and (min-width: 768px) {
     .hero .container{
     width: 768px;
+    gap: 40px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero .container{
+    width: 1280px;
     }
 }
 
@@ -18,6 +25,7 @@
     display: flex;
     flex-direction: column;
     gap: 28px;
+    width: 100%;
 }
 
 .hero-title{
@@ -44,11 +52,31 @@
 
 @media screen and (min-width: 768px) {
     .hero-main-container {
-            flex-direction: row;
-            justify-content: space-between;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 11px;
     }
-    .hero-text-container{
+
+    .hero-title{
+        font-size: 70px;
+        line-height: 0.85714;
         width: 557px;
+    }
+    .hero-text{
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-text-container{
+        max-width: 597px;
+    }
+
+    .hero-title{
+        font-size: 72px;
+        line-height: 0.875;
+        width: 597px;
     }
 }
 
@@ -59,30 +87,33 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 44px;
 }
-
+/*  */
 .hero-positioned-images-list{
     display: flex;
+    width: 108px;
+    height: 44px;
+    position: relative;
 }
 
 .hero-positioned-item{
-    position: relative;
+    position: absolute;
     border-radius: 50%;
     border: 2px solid #FbFbFb;
     width: 44px;
     height: 44px;
     z-index: 997;
+    left: 0;
 }
 
 .hero-positioned-item:nth-child(2){
-    left: -12px;
+    left: 32px;
     overflow: none;
     z-index: 998;
 }
 
 .hero-positioned-item:nth-child(3){
-    left: -24px;
+    left: 64px;
     overflow: none;
     z-index: 999;
 }
@@ -112,6 +143,53 @@
 @media screen and (min-width: 768px) {
     .hero-positioned-container{
         flex-direction: column;
+        align-items: flex-end;
+        min-height: 100%;
+        width: 136px;
+    }
+
+    .hero-positioned-images-list{
+        width: 136px;
+        height: 56px;
+    }
+
+    .hero-positioned-item{
+        width: 56px;
+        height: 56px;
+    }
+    .hero-positioned-item:nth-child(2){
+        left: 41px;
+    }
+
+    .hero-positioned-item:nth-child(3){
+        left: 80px;
+    }
+    .hero-scroll-link{
+        font-size: 20px;
+        line-height: 1;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-positioned-container{
+        width: 146px;
+    }
+
+    .hero-positioned-images-list{
+        width: 146px;
+        height: 56px;
+    }
+
+    .hero-positioned-item{
+        width: 60px;
+        height: 60px;
+    }
+    .hero-positioned-item:nth-child(2){
+        left: 44px;
+    }
+
+    .hero-positioned-item:nth-child(3){
+        left: 86px;
     }
 }
 
@@ -119,4 +197,22 @@
 
 .hero-image-container{
     width: 100%;
+    height: 366px;
+    border-radius: 30px;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)), url(../img/hero-wristwatch-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-image-container {
+        background-image: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)), url(../img/hero-wristwatch-tablet.jpg);
+        height: 520px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .hero-image-container {
+        background-image: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)), url(../img/hero-wristwatch-pc.jpg);
+        height: 500px;
+    }
 }
