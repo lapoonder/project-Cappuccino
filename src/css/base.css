@@ -23,9 +23,9 @@
   font-family: 'Gilroy';
   src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
     url('/fonts/Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/Gilroy-Semibold.woff2') format('woff2'),
-    url('/fonts/Gilroy-Semibold.woff') format('woff'),
-    url('/fonts/Gilroy-Semibold.ttf') format('truetype');
+    url('/fonts/Gilroy-SemiBold.woff2') format('woff2'),
+    url('/fonts/Gilroy-SemiBold.woff') format('woff'),
+    url('/fonts/Gilroy-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
