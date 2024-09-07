@@ -1,6 +1,3 @@
-header {
-    font-family: "Gilroy", sans-serif;
-}
 
 .header-container {
     background-color: #FBFBFB;
@@ -18,7 +15,10 @@ header {
 .header-btn-menu {
     width: 34px;
     height: 34px;
-    padding: 0;
+    padding: 12px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -45,6 +45,10 @@ header {
     .header-container {
         max-width: 768px;
     }
+    .container.header-container {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
     .header-logo {
         font-size: 20px;
     }
@@ -58,8 +62,6 @@ header {
 @media screen and (min-width:1280px) {
     .header-container {
         max-width: 1280px;
-        padding-top: 26px;
-        padding-bottom: 26px;
     }
 
     .header-btn-menu {
