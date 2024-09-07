@@ -1,4 +1,6 @@
-
+.site-header {
+    border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+}
 .header-container {
     background-color: #FBFBFB;
     padding-top: 20px;
@@ -88,7 +90,7 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        bottom: -7px;
+        bottom: -11px;
         background-color: #404bbf;
         border-radius: 100%;
         color: #404bbf;
