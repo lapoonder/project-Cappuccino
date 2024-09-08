@@ -3,19 +3,17 @@
 }
 
 .advertisement-container {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   background-image: url(../img/advertisement.png),
     linear-gradient(to bottom, #0c0c0c, #0c0c0c);
   background-color: #0c0c0c;
   border: 1px solid #000;
+  background-size: 335px;
   width: 335px;
   height: 363px;
   border-radius: 30px;
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
-  margin: 0 auto;
-  padding-top: 60px;
 }
 
 .advertisement-title {
@@ -25,13 +23,12 @@
   line-height: 32px;
   letter-spacing: -0.02em;
   text-align: left;
-  width: 279px;
-  height: 167px;
-  left: 28px;
+  max-width: 279px;
   gap: 0px;
   opacity: 0px;
   color: #fbfbfb;
-  justify-content: center;
+  margin-left: 15px;
+  margin-top: 60px;
 }
 
 .title-part {
@@ -48,6 +45,7 @@
   color: #fbfbfb;
   background-color: transparent;
   margin-top: 28px;
+  margin-left: 15px;
 }
 
 .advertisement-but:hover,
@@ -63,6 +61,8 @@
 
   .advertisement-container {
     background-image: url(../img/advertisement2.png);
+    background-size: 704px;
+    background-size: cover;
     width: 704px;
     height: 425px;
     padding-top: 80px;
@@ -70,14 +70,14 @@
 
   .advertisement-but {
     margin-top: 32px;
+    margin-left: 64px;
   }
 
   .advertisement-title {
-    width: 576px;
-    height: 185px;
-    left: 64px;
+    max-width: 576px;
     font-size: 48px;
     line-height: 44px;
+    margin-left: 64px;
   }
 }
 
@@ -88,19 +88,19 @@
 
   .advertisement-container {
     background-image: url(../img/advertisement3.png);
+    background-size: 1150px;
+    background-size: cover;
     width: 1150px;
     height: 298px;
-    padding-top: 60px;
     justify-content: center;
     display: flex;
     align-items: baseline;
   }
 
   .advertisement-title {
+    max-width: 690px;
     width: 690px;
     height: 132px;
-    top: 3px;
-    left: 80px;
     font-size: 48px;
     font-weight: 600;
     line-height: 44px;
