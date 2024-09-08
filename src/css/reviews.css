@@ -1,4 +1,4 @@
-reviews-item.none-mob,
+.reviews-item.none-mob,
 .reviews-item.none-mob-tab {
   display: none;
 }
@@ -19,8 +19,11 @@ reviews-item.none-mob,
   width: 335px;
   height: 262px;
 }
-.reviews-img {
+
+.reviews-img-wrapper {
   margin-bottom: 24px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 .reviews-item-header {
   margin-bottom: 8px;
