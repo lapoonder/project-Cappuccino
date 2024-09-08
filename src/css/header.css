@@ -78,9 +78,9 @@
         left: 50%;
         transform: translateX(-50%);
         bottom: -11px;
-        background-color: #404bbf;
+        background-color: #3350e9;;
         border-radius: 100%;
-        color: #404bbf;
+        color: #3350e9;
         transition: opacity 250ms linear;
     }
     .header-nav-items:first-child .psevdo::after {
