@@ -1,6 +1,6 @@
-.site-footer {}
-
-.container {}
+.container {
+    max-width: 375px;
+}
 
 .footer-container {
     border-radius: 30px;
@@ -11,10 +11,14 @@
 
 }
 
-.logo-social {}
 
-.logo-footer {
-    padding-bottom: 20px;
+
+.logo-social {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 122px;
+    margin-bottom: 20px;
 }
 
 .logo-footer-text {
@@ -25,12 +29,12 @@
     color: #fbfbfb;
 }
 
-.footer-social-icons {}
+
 
 .footer-list-social-icons {
     display: flex;
     gap: 10px;
-    padding-bottom: 20px;
+
 }
 
 .footer-list-item {
@@ -78,10 +82,6 @@
 
 }
 
-.footer-tittle {
-    max-width: 279px;
-}
-
 .footer-tittle-text {
     font-family: "Gilroy", sans-serif;
     font-weight: 600;
@@ -90,13 +90,14 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
-    padding-bottom: 92px;
+    margin-bottom: 92px;
 }
 
 .nav-text-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 24px;
+    max-height: 64px;
+
 }
 
 .footer-navigation {}
@@ -104,10 +105,12 @@
 .footer-nav {}
 
 .footer-nav-list {
+
     max-width: 147px;
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    justify-content: space-between;
+    gap: 16px 8px;
 }
 
 .footer-nav-item {
@@ -151,6 +154,7 @@
     height: 2px;
     background-color: rgba(251, 251, 251, 0.1);
     margin-bottom: 24px;
+    margin-top: 24px;
 }
 
 .footer-policy-list {
