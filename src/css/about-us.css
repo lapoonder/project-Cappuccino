@@ -1,9 +1,9 @@
-.section {
-}
-.about_us {
-}
-.container {
-}
+.section {}
+
+.about_us {}
+
+.container {}
+
 .container-about-us {
   display: flex;
   flex-direction: column;
@@ -17,6 +17,7 @@
   background: #f3f3f3;
   border-radius: 30px;
 }
+
 .about-us-title {
   padding-top: 40px;
   padding-bottom: 28px;
@@ -26,6 +27,7 @@
   letter-spacing: -0.02em;
   color: #0c0c0c;
 }
+
 .about-us-text {
   margin-bottom: 20px;
   color: rgba(12, 12, 12, 0.7);
@@ -53,11 +55,9 @@
 .about-us-container-pic {
   background-position: center;
   background-color: #2e2f42;
-  background-image: linear-gradient(
-      to bottom,
+  background-image: linear-gradient(to bottom,
       rgba(12, 12, 12, 0.2),
-      rgba(12, 12, 12, 0.2)
-    ),
+      rgba(12, 12, 12, 0.2)),
     url(../img/about-us-mob-w-watch.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -68,44 +68,46 @@
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 2dppx),
-  (min-resolution: 192dpi) {
+(min-resolution: 2dppx),
+(min-resolution: 192dpi) {
   .about-us-container-pic {
-    background-image: linear-gradient(
-        to bottom,
+    background-image: linear-gradient(to bottom,
         rgba(12, 12, 12, 0.2),
-        rgba(12, 12, 12, 0.2)
-      ),
+        rgba(12, 12, 12, 0.2)),
       url(../img/about-us-mob-w-watch-2x.jpg);
   }
 }
 
-.about-us-img {
-}
+.about-us-img {}
 
 @media (min-width: 768px) {
   .section {
     padding-top: 80px;
   }
+
   .container {
     min-width: 768px;
     padding: 0 32px;
   }
+
   .container-about-us {
     gap: 40px;
   }
+
   .about-us-container-info {
     padding-left: 60px;
     padding-right: 60px;
     background: #f3f3f3;
     border-radius: 50px;
   }
+
   .about-us-title {
     padding-top: 80px;
     padding-bottom: 40px;
     font-size: 48px;
     line-height: 0.91;
   }
+
   .about-us-text {
     font-size: 16px;
     line-height: 1.25;
@@ -114,26 +116,24 @@
   .about-us-link {
     margin: 60px 0 80px;
   }
+
   .about-us-container-pic {
-    background-image: linear-gradient(
-        to bottom,
+    background-image: linear-gradient(to bottom,
         rgba(12, 12, 12, 0.2),
-        rgba(12, 12, 12, 0.2)
-      ),
+        rgba(12, 12, 12, 0.2)),
       url(../img/about-us-tab-w-watch.jpg);
     max-width: 100%;
     height: 512px;
     border-radius: 50px;
   }
+
   @media screen and (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 2dppx),
-    (min-resolution: 192dpi) {
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
     .about-us-container-pic {
-      background-image: linear-gradient(
-          to bottom,
+      background-image: linear-gradient(to bottom,
           rgba(12, 12, 12, 0.2),
-          rgba(12, 12, 12, 0.2)
-        ),
+          rgba(12, 12, 12, 0.2)),
         url(../img/about-us-tab-w-watch-2x.jpg);
     }
   }
@@ -144,39 +144,41 @@
   .section {
     padding-top: 100px;
   }
+
   .container {
     min-width: 1280px;
     padding: 0 65px;
   }
+
   .container-about-us {
     flex-direction: row;
   }
+
   .about-us-container-info {
     max-width: 580px;
   }
+
   .about-us-link {
     margin: 40px 0 80px;
   }
+
   .about-us-container-pic {
-    background-image: linear-gradient(
-        to bottom,
+    background-image: linear-gradient(to bottom,
         rgba(12, 12, 12, 0.2),
-        rgba(12, 12, 12, 0.2)
-      ),
+        rgba(12, 12, 12, 0.2)),
       url(../img/about-us-pc-w-watch.jpg);
     width: 100%;
     height: 532px;
     border-radius: 50px;
   }
+
   @media screen and (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 2dppx),
-    (min-resolution: 192dpi) {
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
     .about-us-container-pic {
-      background-image: linear-gradient(
-          to bottom,
+      background-image: linear-gradient(to bottom,
           rgba(12, 12, 12, 0.2),
-          rgba(12, 12, 12, 0.2)
-        ),
+          rgba(12, 12, 12, 0.2)),
         url(../img/about-us-pc-w-watch-2x.jpg);
     }
   }
