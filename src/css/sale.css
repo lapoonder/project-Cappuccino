@@ -24,7 +24,7 @@
 .little-watch-picture {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 16px;
-  width: 80px;
+  max-width: 80px;
   height: 80px;
   background: #f3f3f3;
   padding: 13px 14px;
@@ -32,7 +32,7 @@
 .big-watch-picture {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
+  max-width: 335px;
   height: 385px;
   background: #f3f3f3;
   padding: 50px;
@@ -73,7 +73,7 @@
   color: #fbfbfb;
   border-radius: 8px;
   border-color: transparent;
-  width: 68px;
+  max-width: 68px;
   height: 32px;
   background: rgba(251, 251, 251, 0.1);
 }
@@ -131,13 +131,13 @@
   }
   .little-watch-picture {
     border-radius: 20px;
-    width: 132px;
+    max-width: 132px;
     height: 132px;
     padding: 16px 18px;
   }
   .big-watch-picture {
     border-radius: 50px;
-    width: 552px;
+    max-width: 552px;
     height: 558px;
     padding: 80px 120px;
   }
@@ -159,7 +159,7 @@
   .price {
     font-size: 20px;
     line-height: 1;
-    width: 78px;
+    max-width: 78px;
   }
   .full-price {
   }
@@ -193,7 +193,7 @@
     padding: 16px 18px;
   }
   .big-watch-picture {
-    width: 428px;
+    max-width: 428px;
     padding: 80px 50px;
   }
   .blue-bg {
