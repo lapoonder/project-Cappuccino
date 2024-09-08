@@ -14,8 +14,6 @@
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
-  margin: 0 auto;
-  padding-top: 60px;
 }
 
 .advertisement-title {
@@ -26,13 +24,11 @@
   letter-spacing: -0.02em;
   text-align: left;
   max-width: 279px;
-  width: 279px;
-  height: 167px;
-  left: 28px;
   gap: 0px;
   opacity: 0px;
   color: #fbfbfb;
   margin-left: 15px;
+  margin-top: 60px;
 }
 
 .title-part {
@@ -93,9 +89,9 @@
   .advertisement-container {
     background-image: url(../img/advertisement3.png);
     background-size: 1150px;
+    background-size: cover;
     width: 1150px;
     height: 298px;
-    padding-top: 60px;
     justify-content: center;
     display: flex;
     align-items: baseline;
@@ -105,8 +101,6 @@
     max-width: 690px;
     width: 690px;
     height: 132px;
-    left: 80px;
-    top: 3px;
     font-size: 48px;
     font-weight: 600;
     line-height: 44px;
