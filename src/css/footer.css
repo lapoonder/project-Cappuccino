@@ -102,15 +102,15 @@
 
 .footer-navigation {}
 
-.footer-nav {}
+
 
 .footer-nav-list {
 
     max-width: 147px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 16px 8px;
+
+    gap: 8px 16px;
 }
 
 .footer-nav-item {
@@ -138,9 +138,9 @@
 .footer-address-text {
     font-weight: 500;
     font-size: 12px;
-    line-height: 1.33333;
+    line-height: 1.4;
     color: #fbfbfb;
-    text-align: end;
+    text-align: left;
 }
 
 .footer-policy {
@@ -159,14 +159,11 @@
 
 .footer-policy-list {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-direction: row;
+    gap: 20px;
     max-width: 187px;
-    height: 36px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 8px;
+
+
 
 }
 
@@ -178,4 +175,6 @@
     letter-spacing: -0.02em;
     color: rgba(251, 251, 251, 0.5);
     opacity: 0.9;
+    height: 14px;
+
 }
