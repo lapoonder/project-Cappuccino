@@ -1,11 +1,11 @@
 .site-footer {
     margin-top: 60px;
     position: relative;
-    /* Додаємо relative позиціонування для контексту абсолютного позиціонування */
 }
 
 .flower {
     max-width: 375px;
+    margin: 0 auto 40px;
 }
 
 .footer-container {
@@ -164,7 +164,8 @@
     .flower {
         border-radius: 30px;
         padding: 40px 40px 28px 40px;
-        width: 704px;
+        min-width: 704px;
+
     }
 
     .logo-footer-text {
@@ -182,6 +183,7 @@
 
     .contact {
         min-width: 160px;
+        height: 48px;
         margin: 0;
     }
 
@@ -270,7 +272,7 @@
     .flower {
         padding: 40px 40px 28px 40px;
         min-width: 1216px;
-        margin: 0 auto;
+
     }
 
     .footer-tittle {
@@ -295,5 +297,19 @@
 
     .logo-social-contact-container {
         margin-bottom: 126px;
+    }
+
+    .footer-list-item {
+        width: 36px;
+        height: 36px;
+    }
+
+    .logo-social {
+        width: 128px;
+    }
+
+    .footer-nav-list {
+        gap: 40px;
+        min-width: 505px;
     }
 }
