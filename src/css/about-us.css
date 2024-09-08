@@ -1,8 +1,11 @@
-.section {}
+.section {
+}
 
-.about_us {}
+.about_us {
+}
 
-.container {}
+.container {
+}
 
 .container-about-us {
   display: flex;
@@ -43,7 +46,7 @@
   background-color: #3350e9;
   border-radius: 16px;
   margin: 40px 0;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms linear;
 }
 
 .about-us-link:hover,
@@ -55,9 +58,11 @@
 .about-us-container-pic {
   background-position: center;
   background-color: #2e2f42;
-  background-image: linear-gradient(to bottom,
+  background-image: linear-gradient(
+      to bottom,
       rgba(12, 12, 12, 0.2),
-      rgba(12, 12, 12, 0.2)),
+      rgba(12, 12, 12, 0.2)
+    ),
     url(../img/about-us-mob-w-watch.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -68,17 +73,20 @@
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 2dppx),
-(min-resolution: 192dpi) {
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
   .about-us-container-pic {
-    background-image: linear-gradient(to bottom,
+    background-image: linear-gradient(
+        to bottom,
         rgba(12, 12, 12, 0.2),
-        rgba(12, 12, 12, 0.2)),
+        rgba(12, 12, 12, 0.2)
+      ),
       url(../img/about-us-mob-w-watch-2x.jpg);
   }
 }
 
-.about-us-img {}
+.about-us-img {
+}
 
 @media (min-width: 768px) {
   .section {
@@ -118,9 +126,11 @@
   }
 
   .about-us-container-pic {
-    background-image: linear-gradient(to bottom,
+    background-image: linear-gradient(
+        to bottom,
         rgba(12, 12, 12, 0.2),
-        rgba(12, 12, 12, 0.2)),
+        rgba(12, 12, 12, 0.2)
+      ),
       url(../img/about-us-tab-w-watch.jpg);
     max-width: 100%;
     height: 512px;
@@ -128,12 +138,14 @@
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 2dppx),
-  (min-resolution: 192dpi) {
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
     .about-us-container-pic {
-      background-image: linear-gradient(to bottom,
+      background-image: linear-gradient(
+          to bottom,
           rgba(12, 12, 12, 0.2),
-          rgba(12, 12, 12, 0.2)),
+          rgba(12, 12, 12, 0.2)
+        ),
         url(../img/about-us-tab-w-watch-2x.jpg);
     }
   }
@@ -163,9 +175,11 @@
   }
 
   .about-us-container-pic {
-    background-image: linear-gradient(to bottom,
+    background-image: linear-gradient(
+        to bottom,
         rgba(12, 12, 12, 0.2),
-        rgba(12, 12, 12, 0.2)),
+        rgba(12, 12, 12, 0.2)
+      ),
       url(../img/about-us-pc-w-watch.jpg);
     width: 100%;
     height: 532px;
@@ -173,12 +187,14 @@
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 2dppx),
-  (min-resolution: 192dpi) {
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
     .about-us-container-pic {
-      background-image: linear-gradient(to bottom,
+      background-image: linear-gradient(
+          to bottom,
           rgba(12, 12, 12, 0.2),
-          rgba(12, 12, 12, 0.2)),
+          rgba(12, 12, 12, 0.2)
+        ),
         url(../img/about-us-pc-w-watch-2x.jpg);
     }
   }
