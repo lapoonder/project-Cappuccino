@@ -36,17 +36,17 @@
 
 
 
-@media screen and (min-width:375px) {
+/* @media screen and (min-width:375px) {
     .header-container {
         max-width: 375px;
     }
-}
+} */
 
 
 @media screen and (min-width:768px) {
-    .header-container {
+    /* .header-container {
         max-width: 768px;
-    }
+    } */
     .container.header-container {
         padding-top: 26px;
         padding-bottom: 26px;
@@ -62,9 +62,9 @@
 }
 
 @media screen and (min-width:1280px) {
-    .header-container {
+    /* .header-container {
         max-width: 1280px;
-    }
+    } */
 
     .header-btn-menu {
         display: none;
@@ -94,6 +94,7 @@
         background-color: #404bbf;
         border-radius: 100%;
         color: #404bbf;
+        transition: opacity 250ms linear;
     }
     .header-nav-items:first-child .psevdo::after {
         opacity: 1;
