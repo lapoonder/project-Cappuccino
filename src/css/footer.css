@@ -1,3 +1,7 @@
+.site-footer {
+    margin-top: 60px;
+}
+
 .container {
     max-width: 375px;
 }
@@ -8,10 +12,8 @@
     width: 335px;
     height: 581px;
     background-color: #0c0c0c;
-
+    position: relative;
 }
-
-
 
 .logo-social {
     display: flex;
@@ -29,16 +31,12 @@
     color: #fbfbfb;
 }
 
-
-
 .footer-list-social-icons {
     display: flex;
     gap: 10px;
-
 }
 
 .footer-list-item {
-
     border: 1px solid rgba(251, 251, 251, 0.1);
     border-radius: 10px;
     padding: 8px;
@@ -59,7 +57,6 @@
     fill: #FBFBFB;
 }
 
-
 .contact {
     border: 1px solid rgba(251, 251, 251, 0.2);
     border-radius: 16px;
@@ -79,7 +76,6 @@
     text-transform: uppercase;
     text-align: center;
     color: #fbfbfb;
-
 }
 
 .footer-tittle-text {
@@ -97,19 +93,14 @@
     display: flex;
     justify-content: space-between;
     max-height: 64px;
-
 }
 
 .footer-navigation {}
 
-
-
 .footer-nav-list {
-
     max-width: 147px;
     display: flex;
     flex-wrap: wrap;
-
     gap: 8px 16px;
 }
 
@@ -143,18 +134,14 @@
     text-align: left;
 }
 
-.footer-policy {
-    max-width: 187px;
-}
-
-.footer-policy::before {
-    content: "";
-    display: block;
-    width: 279px;
+.footer-divider {
     height: 2px;
     background-color: rgba(251, 251, 251, 0.1);
-    margin-bottom: 24px;
-    margin-top: 24px;
+    margin: 24px 0;
+}
+
+.footer-policy {
+    max-width: 187px;
 }
 
 .footer-policy-list {
@@ -162,9 +149,6 @@
     flex-direction: row;
     gap: 20px;
     max-width: 187px;
-
-
-
 }
 
 .footer-policy-item {
@@ -176,5 +160,4 @@
     color: rgba(251, 251, 251, 0.5);
     opacity: 0.9;
     height: 14px;
-
 }
