@@ -1,5 +1,6 @@
 .sale .container {
   max-width: 375px;
+  padding: 20px;
 }
 .sale-title {
   font-weight: 600;
@@ -21,10 +22,20 @@
   gap: 5px;
 }
 .little-watch-picture {
-  margin: 13px 14px;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  width: 80px;
+  height: 80px;
+  background: #f3f3f3;
+  padding: 13px 14px;
 }
 .big-watch-picture {
-  margin: 50px auto;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 335px;
+  height: 385px;
+  background: #f3f3f3;
+  padding: 50px;
 }
 .blue-bg {
   background-color: #3350e9;
@@ -38,6 +49,7 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
   margin-bottom: 10px;
+  max-width: 279px;
 }
 .sale-after-title {
   font-weight: 400;
@@ -103,6 +115,7 @@
 @media screen and (min-width: 768px) {
   .sale .container {
     max-width: 768px;
+    padding: 0 32px;
   }
   .sale-title {
     font-size: 48px;
@@ -117,10 +130,16 @@
     gap: 10px;
   }
   .little-watch-picture {
-    margin: 16px 18px;
+    border-radius: 20px;
+    width: 132px;
+    height: 132px;
+    padding: 16px 18px;
   }
   .big-watch-picture {
-    margin: 80px 112px;
+    border-radius: 50px;
+    width: 552px;
+    height: 558px;
+    padding: 80px 120px;
   }
   .blue-bg {
     border-radius: 50px;
@@ -129,6 +148,7 @@
   .sale-blue-title {
     font-size: 32px;
     line-height: 1.125;
+    max-width: 436px;
   }
   .sale-after-title {
     line-height: 1.29;
@@ -159,7 +179,7 @@
 }
 @media screen and (min-width: 1280px) {
   .sale .container {
-    max-width: 1280px;
+    padding: 0 65px;
   }
 
   .sale-title {
@@ -169,14 +189,19 @@
     display: flex;
     gap: 40px;
   }
-  .sale-watches {
-    margin-bottom: 0;
+  .little-watch-picture {
+    padding: 16px 18px;
+  }
+  .big-watch-picture {
+    width: 428px;
+    padding: 80px 50px;
   }
   .blue-bg {
     max-width: 530px;
   }
 
   .sale-blue-title {
+    max-width: 389px;
   }
   .sale-after-title {
   }
