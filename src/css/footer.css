@@ -1,10 +1,11 @@
 .site-footer {
     margin-top: 60px;
+    position: relative;
+    /* Додаємо relative позиціонування для контексту абсолютного позиціонування */
 }
 
 .flower {
     max-width: 375px;
-    margin: 0 auto;
 }
 
 .footer-container {
@@ -74,6 +75,10 @@
     text-transform: uppercase;
     text-align: center;
     color: #fbfbfb;
+}
+
+.footer-tittle {
+    position: relative;
 }
 
 .footer-tittle-text {
@@ -159,7 +164,7 @@
     .flower {
         border-radius: 30px;
         padding: 40px 40px 28px 40px;
-        min-width: 704px;
+        width: 704px;
     }
 
     .logo-footer-text {
@@ -258,13 +263,37 @@
         letter-spacing: -0.02em;
         color: rgba(251, 251, 251, 0.5);
     }
-
 }
 
 @media (min-width: 1280px) {
 
-
     .flower {
+        padding: 40px 40px 28px 40px;
         min-width: 1216px;
+        margin: 0 auto;
+    }
+
+    .footer-tittle {
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: calc(100% - 80px);
+        margin: 0;
+    }
+
+    .footer-tittle-text {
+        font-family: "Gilroy", sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 1.14;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #fbfbfb;
+        margin-bottom: 0;
+    }
+
+    .logo-social-contact-container {
+        margin-bottom: 126px;
     }
 }
