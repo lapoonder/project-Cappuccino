@@ -1,5 +1,7 @@
 .site-footer {
     position: relative;
+    padding: 0 20px;
+    min-width: 320px;
 }
 
 .flower {
@@ -10,6 +12,7 @@
 .footer-container {
     border-radius: 30px;
     padding: 40px 28px 28px 28px;
+    width: 335px;
     min-width: 320px;
     background-color: #0c0c0c;
     position: relative;
