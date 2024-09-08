@@ -1,34 +1,26 @@
-.advertisement {
-  padding-top: 60px;
-}
-
 .advertisement-container {
   background-image: url(../img/advertisement.png),
     linear-gradient(to bottom, #0c0c0c, #0c0c0c);
   background-color: #0c0c0c;
   border: 1px solid #000;
-  background-size: 335px;
-  width: 335px;
-  height: 363px;
+  min-width: 320px;
+  padding: 60px 28px;
   border-radius: 30px;
-  background-size: no-repeat;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .advertisement-title {
-  font-family: Gilroy;
   font-size: 32px;
   font-weight: 600;
   line-height: 32px;
   letter-spacing: -0.02em;
   text-align: left;
   max-width: 279px;
-  gap: 0px;
   opacity: 0px;
   color: #fbfbfb;
-  margin-left: 15px;
-  margin-top: 60px;
+  margin-bottom: 28px;
 }
 
 .title-part {
@@ -44,8 +36,6 @@
   border: 1px solid #fbfbfb26;
   color: #fbfbfb;
   background-color: transparent;
-  margin-top: 28px;
-  margin-left: 15px;
 }
 
 .advertisement-but:hover,
@@ -55,46 +45,38 @@
 }
 
 @media screen and (min-width: 768px) {
-  .advertisement {
-    padding-top: 80px;
-  }
-
   .advertisement-container {
     background-image: url(../img/advertisement2.png);
-    background-size: 704px;
     background-size: cover;
-    width: 704px;
+    max-width: 768px;
+    padding: 80px 64px;
     height: 425px;
-    padding-top: 80px;
-  }
-
-  .advertisement-but {
-    margin-top: 32px;
-    margin-left: 64px;
   }
 
   .advertisement-title {
     max-width: 576px;
     font-size: 48px;
     line-height: 44px;
-    margin-left: 64px;
+    margin-bottom: 32px;
+  }
+
+  .advertisement-but {
+    margin-top: 32px;
   }
 }
 
-@media screen and (min-width: 1158px) {
-  .advertisement {
-    padding-top: 100px;
-  }
-
+@media screen and (min-width: 1280px) {
   .advertisement-container {
     background-image: url(../img/advertisement3.png);
     background-size: 1150px;
     background-size: cover;
-    width: 1150px;
     height: 298px;
     justify-content: center;
     display: flex;
     align-items: baseline;
+    max-width: 1280px;
+    padding: 80px;
+    gap: 140px;
   }
 
   .advertisement-title {
@@ -104,9 +86,6 @@
     font-size: 48px;
     font-weight: 600;
     line-height: 44px;
-  }
-
-  .advertisement-but {
-    margin-left: 140px;
+    margin-top: 3px;
   }
 }
