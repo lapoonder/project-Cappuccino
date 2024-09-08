@@ -9,6 +9,7 @@
   font-size: 32px;
   line-height: 1;
 }
+
 .reviews-item {
   display: flex;
   flex-direction: column;
@@ -41,6 +42,9 @@
 
 /* tablet */
 @media screen and (min-width: 768px) {
+  .reviews-header {
+    font-size: 48px;
+  }
   .reviews-item.none-mob-tab {
     display: none;
   }
