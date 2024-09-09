@@ -210,6 +210,12 @@
   background-position: center;
 }
 
+@media screen and (min-resolution:192dpi) {
+  .hero-image-container {
+    background-image: url(../img/hero-wristwatch-mobile-2x.jpg);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hero-image-container {
     background-image: linear-gradient(
@@ -219,6 +225,13 @@
       url(../img/hero-wristwatch-tablet.jpg);
     height: 520px;
   }
+
+    @media screen and (min-resolution:192dpi) {
+      .hero-image-container {
+        background-image: url(../img/hero-wristwatch-tablet-2x.jpg);
+      }
+    }
+
 }
 @media screen and (min-width: 1280px) {
   .hero-image-container {
@@ -229,4 +242,11 @@
       url(../img/hero-wristwatch-pc.jpg);
     height: 500px;
   }
+
+        @media screen and (min-resolution:192dpi) {
+          .hero-image-container {
+            background-image: url(../img/hero-wristwatch-pc-2x.jpg);
+          }
+        }
+
 }
