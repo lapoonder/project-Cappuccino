@@ -10,12 +10,19 @@
   color: #0c0c0c;
   margin-bottom: 24px;
 }
+
+.sale-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .sale-watches {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  margin-bottom: 40px;
+  /*  margin-bottom: 40px;*/
 }
 .sale-watches-line {
   display: flex;
@@ -128,6 +135,9 @@
     line-height: 0.92;
     margin-bottom: 40px;
   }
+  .sale-content {
+    gap: 40px;
+  }
   .sale-watches {
     flex-direction: row;
   }
@@ -187,13 +197,11 @@
   .sale .container {
     padding: 0 65px;
   }
-
   .sale-title {
     max-width: 389px;
   }
   .sale-content {
-    display: flex;
-    gap: 40px;
+    flex-direction: row;
   }
   .little-watch-picture {
     padding: 16px 18px;
