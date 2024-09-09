@@ -167,8 +167,6 @@
     line-height: 1;
     max-width: 78px;
   }
-  .full-price {
-  }
   .sale-text {
     font-size: 16px;
     line-height: 1.25;
@@ -208,15 +206,5 @@
 
   .sale-blue-title {
     max-width: 389px;
-  }
-  .sale-after-title {
-  }
-  .price {
-  }
-  .full-price {
-  }
-  .sale-text {
-  }
-  .variant {
   }
 }
