@@ -1,37 +1,35 @@
 .advertisement {
-  padding-top: 60px;
+  padding: 60px 20px 0;
 }
 
 .advertisement-container {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   background-image: url(../img/advertisement.png),
     linear-gradient(to bottom, #0c0c0c, #0c0c0c);
   background-color: #0c0c0c;
   border: 1px solid #000;
-  width: 335px;
-  height: 363px;
+  padding: 60px 28px;
   border-radius: 30px;
-  background-size: no-repeat;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin: 0 auto;
-  padding-top: 60px;
+  min-width: 280px;
+}
+
+@media screen and (min-resolution:192dpi) {
+  .advertisement-container {
+      background-image: url(../img/advertisement-2x.png);
+}
 }
 
 .advertisement-title {
-  font-family: Gilroy;
   font-size: 32px;
   font-weight: 600;
   line-height: 32px;
   letter-spacing: -0.02em;
   text-align: left;
-  width: 279px;
-  height: 167px;
-  left: 28px;
-  gap: 0px;
-  opacity: 0px;
+  max-width: 279px;
   color: #fbfbfb;
-  justify-content: center;
+  margin-bottom: 28px;
 }
 
 .title-part {
@@ -43,11 +41,10 @@
   height: 48px;
   gap: 0px;
   border-radius: 16px;
-  opacity: 0px;
   border: 1px solid #fbfbfb26;
   color: #fbfbfb;
   background-color: transparent;
-  margin-top: 28px;
+  transition: color 250ms linear, background-color 250ms linear;
 }
 
 .advertisement-but:hover,
@@ -56,57 +53,62 @@
   background-color: #fbfbfb;
 }
 
-@media screen and (min-width: 768px) {
-  .advertisement {
-    padding-top: 80px;
+@media screen and (min-width: 375px) {
+  .advertisement-container {
+    max-width: 335px;
   }
 
+}
+
+@media screen and (min-width: 768px) {
   .advertisement-container {
     background-image: url(../img/advertisement2.png);
-    width: 704px;
+    background-size: cover;
+    max-width: 768px;
+    padding: 80px 64px;
     height: 425px;
-    padding-top: 80px;
   }
 
-  .advertisement-but {
-    margin-top: 32px;
-  }
+    @media screen and (min-resolution:192dpi) {
+      .advertisement-container {
+        background-image: url(../img/advertisement2-2x.png);
+      }
+    }
 
   .advertisement-title {
-    width: 576px;
-    height: 185px;
-    left: 64px;
+    max-width: 576px;
     font-size: 48px;
     line-height: 44px;
+    margin-bottom: 32px;
   }
 }
 
-@media screen and (min-width: 1158px) {
-  .advertisement {
-    padding-top: 100px;
-  }
-
+@media screen and (min-width: 1280px) {
   .advertisement-container {
     background-image: url(../img/advertisement3.png);
-    width: 1150px;
+    background-size: cover;
     height: 298px;
-    padding-top: 60px;
     justify-content: center;
     display: flex;
     align-items: baseline;
+    max-width: 1150px;
+    padding: 80px;
+    gap: 140px;
   }
 
+     @media screen and (min-resolution:192dpi) {
+       .advertisement-container {
+         background-image: url(../img/advertisement3-2x.png);
+       }
+     }
+
   .advertisement-title {
+    max-width: 690px;
     width: 690px;
     height: 132px;
-    top: 3px;
-    left: 80px;
     font-size: 48px;
     font-weight: 600;
     line-height: 44px;
-  }
-
-  .advertisement-but {
-    margin-left: 140px;
+    margin-top: 3px;
   }
 }
