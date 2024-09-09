@@ -1,13 +1,8 @@
-.section {
-}
-
 .contacts_us .container {
   max-width: 375px;
   min-width: 320px;
 }
 
-.container {
-}
 .contact-us-wrapper {
   padding-bottom: 60px;
 }
@@ -51,7 +46,6 @@
   background-color: transparent;
   outline: #f3f3f3;
   cursor: pointer;
-
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -80,7 +74,6 @@
   outline: #f3f3f3;
   cursor: pointer;
   margin-bottom: 28px;
-
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
