@@ -28,6 +28,7 @@
 .sale-watches-line {
   display: flex;
   gap: 5px;
+  width: 100%;
 }
 
 .little-watch-picture {
@@ -36,10 +37,9 @@
   align-items: center;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 16px;
-  max-width: 80px;
-  height: 80px;
+  width: calc((100% - 15px) / 4);
+  padding: 13px 0;
   background: #f3f3f3;
-  padding: 13px 14px;
 }
 
 .big-watch-picture {
@@ -48,10 +48,8 @@
   align-items: center;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  max-width: 335px;
-  height: 385px;
+  width: 100%;
   background: #f3f3f3;
-  padding: 50px;
 }
 
 .blue-bg {
@@ -161,13 +159,12 @@
   .sale-watches-line {
     flex-direction: column;
     gap: 10px;
+    max-width: 132px;
   }
 
   .little-watch-picture {
     border-radius: 20px;
-    max-width: 132px;
-    height: 132px;
-    padding: 16px 18px;
+    width: 132px;
   }
 
   .big-watch-picture {
@@ -230,10 +227,6 @@
 
   .sale-content {
     flex-direction: row;
-  }
-
-  .little-watch-picture {
-    padding: 16px 18px;
   }
 
   .big-watch-picture {
