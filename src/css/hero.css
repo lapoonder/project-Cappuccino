@@ -102,7 +102,7 @@
   height: 44px;
   z-index: 997;
   left: 0;
-  overflow: none;
+  overflow: hidden;
 }
 
 .hero-positioned-item:nth-child(2) {

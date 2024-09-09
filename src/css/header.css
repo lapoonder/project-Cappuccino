@@ -82,7 +82,6 @@
     bottom: -11px;
     background-color: #3350e9;
     border-radius: 100%;
-    color: #3350e9;
     transition: opacity 250ms linear;
   }
   .header-nav-items:first-child .psevdo::after {
