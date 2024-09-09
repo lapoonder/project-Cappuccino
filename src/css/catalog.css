@@ -227,6 +227,15 @@
     transform: translateY(0%); 
 }
 
+
+.catalog-btn{
+    border-radius: 16px;
+width: 160px;
+height: 48px;
+    background: #3350e9;
+}
+
+
 @media screen and (min-width: 768px) {
  
 .catolog-div{

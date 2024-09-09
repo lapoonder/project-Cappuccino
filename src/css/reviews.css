@@ -4,11 +4,11 @@
 }
 .reviews-header {
   margin-bottom: 24px;
-
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
 }
+
 .reviews-item {
   display: flex;
   flex-direction: column;
@@ -16,18 +16,15 @@
   background-color: #f3f3f3;
   border-radius: 30px;
   padding: 32px 36px;
-  width: 335px;
-  height: 262px;
 }
 
 .reviews-img-wrapper {
-  margin-bottom: 24px;
   border-radius: 50%;
   overflow: hidden;
 }
 .reviews-item-header {
   margin-bottom: 8px;
-
+  margin-top: 24px;
   color: #0c0c0c;
   font-size: 16px;
   line-height: 1.25;
@@ -41,6 +38,9 @@
 
 /* tablet */
 @media screen and (min-width: 768px) {
+  .reviews-header {
+    font-size: 48px;
+  }
   .reviews-item.none-mob-tab {
     display: none;
   }
