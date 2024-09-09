@@ -130,6 +130,11 @@ list-style: none;
     width: calc((100% - 48px) / 3);  
 }
 
+
+.button-catalog{
+    display: none;
+}
+
 }
 
 
