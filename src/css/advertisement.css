@@ -15,6 +15,12 @@
   min-width: 280px;
 }
 
+@media screen and (min-resolution:192dpi) {
+  .advertisement-container {
+      background-image: url(../img/advertisement-2x.png);
+}
+}
+
 .advertisement-title {
   font-size: 32px;
   font-weight: 600;
@@ -39,6 +45,7 @@
   border: 1px solid #fbfbfb26;
   color: #fbfbfb;
   background-color: transparent;
+  transition: color 250ms linear, background-color 250ms linear;
 }
 
 .advertisement-but:hover,
@@ -51,6 +58,7 @@
   .advertisement-container {
     max-width: 335px;
   }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -61,6 +69,13 @@
     padding: 80px 64px;
     height: 425px;
   }
+
+    @media screen and (min-resolution:192dpi) {
+      .advertisement-container {
+        background-image: url(../img/advertisement2-2x.png);
+      }
+    }
+
 
   .advertisement-title {
     max-width: 576px;
@@ -82,6 +97,13 @@
     padding: 80px;
     gap: 140px;
   }
+
+     @media screen and (min-resolution:192dpi) {
+       .advertisement-container {
+         background-image: url(../img/advertisement3-2x.png);
+       }
+     }
+  
 
   .advertisement-title {
     max-width: 690px;
