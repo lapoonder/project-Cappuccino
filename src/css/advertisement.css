@@ -1,3 +1,7 @@
+.advertisement {
+  padding: 60px 20px 0;
+}
+
 .advertisement-container {
   background-image: url(../img/advertisement.png),
     linear-gradient(to bottom, #0c0c0c, #0c0c0c);
@@ -8,6 +12,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  min-width: 280px;
 }
 
 .advertisement-title {
@@ -40,6 +45,12 @@
 .advertisement-but:focus {
   color: #0c0c0c;
   background-color: #fbfbfb;
+}
+
+@media screen and (min-width: 375px) {
+  .advertisement-container {
+    max-width: 335px;
+  }
 }
 
 @media screen and (min-width: 768px) {

@@ -21,13 +21,12 @@
 }
 
 .reviews-img-wrapper {
-  margin-bottom: 24px;
   border-radius: 50%;
   overflow: hidden;
 }
 .reviews-item-header {
   margin-bottom: 8px;
-
+  margin-top: 24px;
   color: #0c0c0c;
   font-size: 16px;
   line-height: 1.25;
