@@ -37,14 +37,16 @@
   gap: 10px;
 }
 
-.footer-list-item {
+.footer-link{
   border: 1px solid rgba(251, 251, 251, 0.1);
   border-radius: 10px;
-  padding: 8px;
   width: 34px;
   height: 34px;
   opacity: 0.8;
   transition: opacity 250ms linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-list-item:hover,
@@ -56,7 +58,7 @@
   fill: #fbfbfb;
 }
 
-.contact {
+.contact-phone {
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 16px;
   max-width: 152px;
@@ -65,9 +67,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.contact-phone {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 12px;
