@@ -104,12 +104,12 @@
   line-height: 1.29;
   text-align: center;
   color: #fbfbfb;
-  transition: opacity 250ms linear;
+  transition: background-color 250ms linear;
 }
 
 .submit-button:hover,
 .submit-button:focus {
-  background: #1f3cd4;
+  background-color: #1f3cd4;
 }
 
 .contact-us-img {
@@ -152,6 +152,11 @@
     padding: 16px 18px;
   }
 
+  .contact-form-input:nth-child(1n + 3) {
+    padding: 16px 16px;
+  }
+
+
   .contact-form-input::placeholder {
     font-size: 16px;
     line-height: 1.25;
@@ -161,6 +166,7 @@
     max-width: 460px;
     min-height: 90px;
     margin-bottom: 14px;
+    padding: 16px 16px;
   }
 
   .contact-form-comment::placeholder {
