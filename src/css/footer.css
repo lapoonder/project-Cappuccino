@@ -160,7 +160,8 @@
 
 @media (min-width: 375px) {
   .flower {
-    max-width: 335px;
+    /*max-width: 335px;*/
+    max-width: none;
   }
 }
 

@@ -3,7 +3,8 @@
 }
 
 .header-container {
-  max-width: 375px;
+  /*max-width: 375px;*/
+  max-width: none;
   background-color: #fbfbfb;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -38,7 +39,8 @@
 
 @media screen and (min-width: 768px) {
   .container.header-container {
-    max-width: 768px;
+    /*max-width: 768px;*/
+    max-width: none;
     padding-top: 26px;
     padding-bottom: 26px;
   }

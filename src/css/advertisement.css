@@ -56,7 +56,8 @@
 
 @media screen and (min-width: 375px) {
   .advertisement-container {
-    max-width: 335px;
+    /*max-width: 335px;*/
+    max-width: none;
   }
 
 }
@@ -65,7 +66,8 @@
   .advertisement-container {
     background-image: url(../img/advertisement2.png);
     background-size: cover;
-    max-width: 768px;
+    /*max-width: 768px;*/
+    max-width: none;
     padding: 80px 64px;
     height: 425px;
   }
