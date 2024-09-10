@@ -158,6 +158,10 @@
     height: 14px;
 }
 
+.footer-policy-link {
+    cursor: pointer;
+}
+
 @media (max-width: 335px) {
     .footer-nav-list {
         max-width: 140px;
