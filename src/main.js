@@ -1,20 +1,25 @@
 (() => {
   const mob_menu = {
     // Додати атрибут mobile-modal-open на кнопку відкриття
-    openModalBtn: document.querySelector('[mobile-modal-open]'),
+    openModalBtn: document.querySelector('[data-mobile-modal-open]'),
     // Додати атрибут mobile-modal-close на кнопку закриття
-    closeModalBtn: document.querySelector('[mobile-modal-close]'),
+    closeModalBtn: document.querySelector('[data-mobile-modal-close]'),
     // Додати атрибути на лінки в меню
-    closeModalHrefHome: document.querySelector(
-      '[mobile-modal-menu-close-home]'
+    closeModalHrefHome: document.querySelector('[data-mobile-modal-menu-home]'),
+    closeModalHrefAb: document.querySelector(
+      '[data-mobile-modal-menu-about_us]'
     ),
-    closeModalHref: document.querySelector('[mobile-modal-menu-close]'),
-    closeModalHrefAb: document.querySelector('[mobile-modal-menu-close-ab]'),
-    closeModalHrefCat: document.querySelector('[mobile-modal-menu-close-cat]'),
-    closeModalHref2: document.querySelector('[mobile-modal-menu-close-rev]'),
-    closeModalHrefCu: document.querySelector('[mobile-modal-menu-close-cu]'),
+    closeModalHrefCat: document.querySelector(
+      '[data-mobile-modal-menu-catalog]'
+    ),
+    closeModalHref: document.querySelector('[data-mobile-modal-menu-sale]'),
+    closeModalHref2: document.querySelector('[data-mobile-modal-menu-rewiew]'),
+    closeModalHrefCu: document.querySelector(
+      '[data-mobile-modal-menu-contact_us]'
+    ),
     // Додати атрибут mobile-menu-window на бекдроп модалки
-    modal: document.querySelector('[mobile-menu-window]'),
+    modal: document.querySelector('[data-mobile-menu-window]'),
+    modal_body: document.querySelector('[data-mobile-menu-body-block]'),
   };
 
   mob_menu.openModalBtn.addEventListener('click', toggleModal);
@@ -29,5 +34,6 @@
   function toggleModal() {
     // is-open це клас який буде додаватися/забиратися на бекдроп при натисканні на кнопки
     mob_menu.modal.classList.toggle('is-open');
+    mob_menu.modal_body.classList.toggle('mobile-menu-active');
   }
 })();
