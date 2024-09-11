@@ -49,18 +49,14 @@
   align-items: center;
 }
 
-.footer-list-item:hover,
-.footer-list-item:focus {
-  opacity: 1;
-}
-
 .footer-icon {
-  fill: #cbcbcb;
+  fill: #fbfbfb;
+  opacity: 0.8;
 }
 
-.footer-icon:hover,
-.footer-icon:focus {
-  fill: #fbfbfb;
+.footer-link:hover,
+.footer-link:focus {
+  opacity: 1;
 }
 
 .contact-phone {
