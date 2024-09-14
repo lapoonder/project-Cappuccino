@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WatchCharm</title>
     <script type="module" crossorigin src="/project-Cappuccino/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-Cappuccino/assets/index-mxQBNfLa.css">
+    <link rel="stylesheet" crossorigin href="/project-Cappuccino/assets/index-C_uUkCcu.css">
   </head>
   <body data-mobile-menu-body-block>
     <header class="site-header">
@@ -516,6 +516,7 @@
           Please use the form below to contact us. Enter your name, email,
           phone, and message and we'll get back to you shortly.
         </p>
+        <label for="user-name" class="form-contact-us-label">Name:</label>
         <input
           name="user-name"
           class="contact-form-input"
@@ -523,7 +524,10 @@
           placeholder="Name"
           id="user-name"
           required
+          pattern="[A-Za-zА-Яа-яЁё\s]+"
+          title='The field "Name" can only contain letters and spaces'
         />
+        <label for="user-email" class="form-contact-us-label">E-mail:</label>
         <input
           name="user-email"
           class="contact-form-input"
@@ -531,7 +535,12 @@
           placeholder="E-mail"
           id="user-email"
           required
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          title="Please enter a valid email address"
         />
+        <label for="user-phone" class="form-contact-us-label"
+          >Phone number:</label
+        >
         <input
           name="user-phone"
           class="contact-form-input"
@@ -539,6 +548,8 @@
           placeholder="+380"
           id="user-phone"
           required
+          pattern="\+?[0-9\(\)\-\s]+"
+          title="A phone number can only contain numbers, brackets, spaces, hyphens and the plus sign"
         />
         <textarea
           name="user-comment"
@@ -571,6 +582,7 @@
     </div>
   </div>
 </section>
+
     </main>
 
     <footer class="site-footer" id="footer">
